@@ -40,6 +40,9 @@ env:
   OIDC_ISSUER: "https://token.actions.githubusercontent.com"
   IDENITY_REGEX: "https://github.com/zabbix/zabbix-docker/.github/"
 
+permissions:
+  contents: read
+
 jobs:
   init_build:
     name: Initialize build

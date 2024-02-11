@@ -29,6 +29,9 @@ env:
   PFLT_LOGLEVEL: "warn"
   PFLT_ARTIFACTS: "/tmp/artifacts"
 
+permissions:
+  contents: read
+
 jobs:
   init_build:
     name: Initialize build
