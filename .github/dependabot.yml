@@ -416,3 +416,18 @@ updates:
   directory: /Dockerfiles/web-service/ubuntu
   schedule:
     interval: daily
+
+- package-ecosystem: docker
+  directory: /Dockerfiles/build-pgsql/rhel
+  schedule:
+    interval: daily
+
+- package-ecosystem: docker
+  directory: /Dockerfiles/server-pgsql/rhel
+  schedule:
+    interval: daily
+
+- package-ecosystem: docker
+  directory: /Dockerfiles/web-nginx-pgsql/rhel
+  schedule:
+    interval: daily

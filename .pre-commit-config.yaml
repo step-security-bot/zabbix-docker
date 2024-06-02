@@ -39,3 +39,7 @@ repos:
 #  hooks:
 #  - id: yamlfmt
 #    args: [--mapping, '2', --sequence, '1', --offset, '0', --colons, --width, '400']
+- repo: https://github.com/digitalpulp/pre-commit-php
+  rev: 1.4.0
+  hooks:
+  - id: php-lint-all
